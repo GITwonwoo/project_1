@@ -2,7 +2,7 @@
 /* 섹션시작 ~ ~ ~ */ 
 body{background: url(../img/section.jpg) no-repeat center;}
 section{width:1180px; height: 4750px; margin: 0 auto; }
-button{border:none; background-color: white;} 
+button{border:none; background-color: white; cursor: pointer;} 
 
 /* 1. 이벤트 */
 .event >article { width: 360px; height:500px;  float: left; }
