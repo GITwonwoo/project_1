@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* 섹션시작 ~ ~ ~ */ 
+body{background: url(../img/section.jpg) no-repeat center;}
+section{width:1180px; height: 4750px; margin: 0 auto; }
+button{border:none; background-color: white;} 
+
+/* 1. 이벤트 */
+.event >article { width: 360px; height:500px;  float: left; }
+.event >article:nth-of-type(1) {margin-top: 130px; height: 620px; overflow: hidden;} 
+.event >article:nth-of-type(2) {margin: 250px 50px 0 50px;}
+.event >article:nth-of-type(3) {margin-top: 250px;}
+.event >article img{width: 100%;}
+.event >article:nth-of-type(2) img{height: 75%;}
+.event >article:nth-of-type(3) img{height: 75%;} 
+.event {height: 1000px; position: relative;}   
+.event >button{position: absolute; left:1038px; top: 170px;} 
+.event >button img{vertical-align: middle; }  
+
+/* 2. 엔틱샵 */
+.antique >article { position: absolute; height:360px;}
+.antique >article:nth-of-type(1) {width: 1100px; top: 200px; right: 0;} 
+.antique >article:nth-of-type(1) img {float: right;}
+.antique >article:nth-of-type(2) {width: 1100px; bottom: 150px; left: 80px;}
+.antique >article:nth-of-type(2) img{float: left;}
+.antique >article:nth-of-type(1) img{width: 55%;}
+.antique >article:nth-of-type(2) img{width: 40%;}
+.antique{ height: 1000px; position: relative; }
+.an1 {position: absolute; margin:120px 0px 0px 500px;}
+.antique >button{position: absolute; top:850px; left: 1038px;}
+.antique >button img{vertical-align: middle;}
+
+/* 3. 모던샵 */
+.modern >article{ width:360px; height: 500px;  float: left;}
+.modern >article:nth-of-type(1){margin-top: 100px; }
+.modern >article:nth-of-type(2){margin: 100px 50px 0px 50px; padding-bottom: 200px;}
+.modern >article:nth-of-type(3){margin-top: 100px;}
+.modern >article:nth-of-type(4){position: absolute; margin-top: 700px;} 
+.modern{height: 1350px; position: relative;}
+.modern img{width: 100%;}
+.modern >button{position: absolute; top: 750px; left: 1038px;}
+.modern >button img{vertical-align: middle;}
+
+/* 4. 리뷰 */
+.review >div{width: 500px; height: 400px;}
+.review >div:nth-of-type(1){position: absolute; width:1100px; top:190px; right: 0;} 
+.review >div:nth-of-type(1) img{float: right; width:54%}
+.review >div:nth-of-type(2){position: absolute; width:1100px; bottom: 230px;}
+.review >div:nth-of-type(2) img{float: left; width:40%}
+.review{height:1200px; position: relative;}
+.review >button{position: absolute; top:900px; left: 1038px;}
+.review >button img{vertical-align: middle;}
+.re1{position: absolute; left: 600px; top: 200px;}
+.re2{position: absolute; margin-top: 210px; margin-left: 170px;}
+.re3{position: absolute; left: 100px;}
+.review2{box-shadow: 3px 10px 20px 1px;}
+
+/* info */
+.info{font-size: 25px;} 
+.submit{background-color: black; color: white;}
